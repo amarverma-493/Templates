@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Echo Buds AD201",
+    "sku": "EBAD201",
+    "price": "$19.99",
+    "oldPrice": "$29.99",
+    "image": "images/product_1.png",
+    "images": [
+      "images/product_1.png",
+      "images/product_1-2.png",
+      "images/product_1-3.png"
+    ],
+    "desc": "20H battery with charging case, fast charging, sweat resistant",
+    "features": [
+      "Fast charging",
+      "20-hour battery life",
+      "Sweat resistant",
+      "Compact design"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Echo Buds AD301",
+    "sku": "EBAD301",
+    "price": "$29.99",
+    "oldPrice": "$39.99",
+    "image": "images/product_2.png",
+    "images": [
+      "images/product_2.png",
+      "images/product_2-2.png",
+      "images/product_2-3.png"
+    ],
+    "desc": "22H battery, premium sound, sweat & water resistant",
+    "features": [
+      "Premium sound quality",
+      "22-hour battery life",
+      "Sweat & water resistant",
+      "Secure in-ear fit"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Echo Buds AD501",
+    "sku": "EBAD501",
+    "price": "$39.99",
+    "oldPrice": "$49.99",
+    "image": "images/product_3.png",
+    "images": [
+      "images/product_3.png",
+      "images/product_3-2.png",
+      "images/product_3-3.png"
+    ],
+    "desc": "24H playtime, active noise canceling, USB-C fast charge",
+    "features": [
+      "Active Noise Cancellation",
+      "24-hour battery with case",
+      "USB-C fast charging",
+      "Touch controls"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Air3 Wireless",
+    "sku": "AIR3WLS",
+    "price": "$44.50",
+    "oldPrice": "$59.99",
+    "image": "images/product_4.png",
+    "images": [
+      "images/product_4.png",
+      "images/product_4-2.png",
+      "images/product_4-3.png"
+    ],
+    "desc": "True wireless, dual mic, low latency gaming mode",
+    "features": [
+      "Dual mic ENC",
+      "Low latency mode",
+      "True wireless design",
+      "Great for gaming"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "True 2 Wireless",
+    "sku": "T2WIRE",
+    "price": "$55.00",
+    "oldPrice": "$65.00",
+    "image": "images/product_5.png",
+    "images": [
+      "images/product_5.png",
+      "images/product_5-2.png",
+      "images/product_5-3.png"
+    ],
+    "desc": "Hi-Fi sound, smart touch control, long battery",
+    "features": [
+      "Smart touch control",
+      "Hi-Fi stereo sound",
+      "Long battery backup",
+      "Voice assistant support"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Air Pop True Wireless",
+    "sku": "AIRPOP",
+    "price": "$59.50",
+    "oldPrice": "$74.00",
+    "image": "images/product_6.png",
+    "images": [
+      "images/product_6.png",
+      "images/product_6-2.png",
+      "images/product_6-3.png"
+    ],
+    "desc": "Bluetooth 5.2, compact design, fast pairing",
+    "features": [
+      "Bluetooth 5.2 connectivity",
+      "Compact and pocketable",
+      "Instant pairing",
+      "Crystal-clear calls"
+    ]
+  }
+]

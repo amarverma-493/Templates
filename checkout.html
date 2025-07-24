@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Earpods</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="images/favicon.png">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+
+</head>
+<body>
+    <div id="header"></div>
+
+
+<div class="container my-5 explore about_us form_section form_login Checkout">
+ <form id="checkout-form" novalidate>
+  <div class="row">
+    <div class="col-sm-12 mt-2 pt-5">
+      <h1>Checkout</h1>
+      <div class="row">
+        <h3 class="mt-4 desc_color">Shipping Details</h3>
+
+        <div class="col-sm-12 col-lg-4  mt-4 mb-4">
+          <input type="text" id="firstName" name="firstName" class="form-control" placeholder="First Name" required>
+        </div>
+
+        <div class="col-sm-12 col-lg-4  mt-4 mb-4">
+          <input type="text" id="lastName" name="lastName" class="form-control" placeholder="Last Name" required>
+        </div>
+
+        <div class="col-sm-12 col-lg-4  mt-4 mb-4">
+          <input type="text" id="address" name="address" class="form-control" placeholder="Address" required>
+        </div>
+
+        <div class="col-sm-12 col-lg-4  mt-4 mb-4">
+          <input type="text" id="city" name="city" class="form-control" placeholder="City" required>
+        </div>
+
+        <div class="col-sm-12 col-lg-4  mt-4 mb-4">
+          <select id="country" name="country" class="form-control" required>
+            <option value="">Select Country</option>
+            <option value="USA">USA</option>
+            <option value="India">India</option>
+            <!-- Add more -->
+          </select>
+        </div>
+
+        <div class="col-sm-12 col-lg-4  mt-4 mb-4">
+          <select id="state" name="state" class="form-control" required>
+            <option value="">Select State</option>
+            <option value="CA">California</option>
+            <option value="NY">New York</option>
+            <!-- Add more -->
+          </select>
+        </div>
+
+        <div class="col-sm-12 col-lg-4  mt-4 mb-4">
+          <input type="text" id="zip" name="zip" class="form-control" placeholder="Zip/Postal Code" required>
+        </div>
+
+        <div class="col-sm-12 col-lg-4  mt-4 mb-4">
+          <input type="tel" id="phone" name="phone" class="form-control" placeholder="Phone Number" required>
+        </div>
+
+        <div class="col-sm-12 col-lg-4  mt-4 mb-4">
+          <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
+        </div>
+
+        <div class="col-sm-12 col-lg-4  mt-4 mb-4">
+          <textarea name="message" id="message" class="form-control" placeholder="Message"></textarea>
+        </div>
+
+        <div class="col-sm-12 col-lg-4  mb-4">
+          <p class="desc_color mt-4 mb-0">We Accept</p>
+          <img src="images/cards.png" class="img-fluid" alt="">
+        </div>
+      </div>
+
+      <div class="row">
+        <h3 class="mt-4 desc_color">Payment Details</h3>
+
+        <div class="col-sm-12 col-lg-4  mt-4 mb-4">
+          <select id="cardType" name="cardType" class="form-control" required>
+            <option value="">Select Card</option>
+            <option value="visa">Visa</option>
+            <option value="mastercard">MasterCard</option>
+          </select>
+        </div>
+
+        <div class="col-sm-12 col-lg-4  mt-4 mb-4">
+          <input type="number" id="cardNumber" name="cardNumber" class="form-control" placeholder="Card Number" required>
+        </div>
+
+        <div class="col-sm-12 col-lg-4  mt-4 mb-4">
+          <select id="expMonth" name="expMonth" class="form-control" required>
+            <option value="">Select Month</option>
+            <option value="01">01</option>
+            <option value="02">02</option>
+            <!-- up to 12 -->
+          </select>
+        </div>
+
+        <div class="col-sm-12 col-lg-4  mt-4 mb-4">
+          <select id="expYear" name="expYear" class="form-control" required>
+            <option value="">Select Year</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+          </select>
+        </div>
+
+        <div class="col-sm-12 col-lg-4  mt-4 mb-4">
+          <input type="text" id="cvv" name="cvv" class="form-control" placeholder="CVV" required>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 mb-5">
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="terms" name="terms" value="yes">
+            <label class="form-check-label" for="terms">
+              I am at least 18 years of age and agree to the <a href="terms.html">Terms and Conditions</a> ...
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary mt-3">Place Order <img src="images/arrow_light.png" alt=""> </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+
+   
+</div>
+
+
+
+
+
+  <div id="footer"></div>
+<script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  
+  <script src="js/main.js"></script>
+  
+  
+</body>
+</html>
